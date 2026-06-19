@@ -286,7 +286,22 @@ Restore the exact environment on another computer with:
 
 ``` r
 install.packages("renv")
+#> The following package(s) will be installed:
+#> - renv [1.2.3]
+#> These packages will be installed into "~/Documents/HabitatPotentialDK/renv/library/linux-ubuntu-jammy/R-4.5/x86_64-pc-linux-gnu".
+#> 
+#> # Installing packages --------------------------------------------------------
+#> [32m✔[0m renv 1.2.3                               [linked from cache]
+#> Successfully installed 1 package in 6.8 milliseconds.
 renv::restore()
+#> The following required system packages are not installed:
+#> - libcurl4-openssl-dev  [required by curl]
+#> The R packages depending on these system packages may fail to install.
+#> 
+#> An administrator can install these packages with:
+#> - sudo apt install libcurl4-openssl-dev
+#> 
+#> - The library is already synchronized with the lockfile.
 ```
 
 ## Load packages

@@ -229,14 +229,14 @@ renv::snapshot()
 
 Restore the exact environment on another computer with:
 
-```{r restore-renv, eval=FALSE}
+```{r restore-renv, eval=TRUE}
 install.packages("renv")
 renv::restore()
 ```
 
 ## Load packages
 
-```{r packages}
+```{r packages, eval= TRUE}
 required_packages <- c(
   "terra", "sf", "dplyr", "purrr", "readr", "tibble", "tidyr", "ggplot2",
   "here", "fs", "blockCV", "ENMeval", "maxnet",
