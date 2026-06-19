@@ -292,7 +292,7 @@ install.packages("renv")
 #> 
 #> # Installing packages --------------------------------------------------------
 #> [32m✔[0m renv 1.2.3                               [linked from cache]
-#> Successfully installed 1 package in 6.8 milliseconds.
+#> Successfully installed 1 package in 8.1 milliseconds.
 renv::restore()
 #> The following required system packages are not installed:
 #> - libcurl4-openssl-dev  [required by curl]

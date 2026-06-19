@@ -275,7 +275,7 @@ library(rangeModelMetadata)
 All choices that affect the results are collected in one object. Avoid scattering
 unrecorded constants throughout the script.
 
-```{r configuration}
+```{r configuration, eval=TRUE, cache=TRUE}
 cfg <- list(
   project_title = "HabitatPotentialDK",
   version = "0.1.0",
