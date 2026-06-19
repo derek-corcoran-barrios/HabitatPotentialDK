@@ -1,0 +1,5 @@
+abiotic_class,open_layer,forest_layer,pixel_identical
+DryPoor,OpenDryPoor,ForestDryPoor,True
+DryRich,OpenDryRich,ForestDryRich,True
+WetPoor,OpenWetPoor,ForestWetPoor,True
+WetRich,OpenWetRich,ForestWetRich,True

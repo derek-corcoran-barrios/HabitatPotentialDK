@@ -1,0 +1,9 @@
+band,habitat,structure,abiotic_class,n_zero,n_one,crs,resolution_x,resolution_y
+1,OpenDryPoor,Open,DryPoor,5896,162,EPSG:25832,200.0,200.0
+2,ForestDryPoor,Forest,DryPoor,5896,162,EPSG:25832,200.0,200.0
+3,OpenDryRich,Open,DryRich,3038,3020,EPSG:25832,200.0,200.0
+4,ForestDryRich,Forest,DryRich,3038,3020,EPSG:25832,200.0,200.0
+5,OpenWetPoor,Open,WetPoor,5742,316,EPSG:25832,200.0,200.0
+6,ForestWetPoor,Forest,WetPoor,5742,316,EPSG:25832,200.0,200.0
+7,OpenWetRich,Open,WetRich,3812,2246,EPSG:25832,200.0,200.0
+8,ForestWetRich,Forest,WetRich,3812,2246,EPSG:25832,200.0,200.0

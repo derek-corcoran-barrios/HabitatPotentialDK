@@ -1,0 +1,15 @@
+name,file,units,type,resampling,source,citation_or_doi,acquired,native_resolution_m,notes
+FineSand,Data/Predictors/FineSand.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+CoarseSand,Data/Predictors/CoarseSand.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+Clay,Data/Predictors/Clay.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+SoilCarbon,Data/Predictors/SoilCarbon.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,Loaded but omitted in the legacy stack; retained here.
+pH,Data/Predictors/pH_0_5cm.tif,pH,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+GroundwaterTable,Data/Predictors/GroundwaterSummerDepth.tif,m,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,Confirm sign convention and whether larger values mean deeper groundwater.
+MeanTemp,Data/Predictors/MeanTemp.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+SeasTemp,Data/Predictors/TempSeasonality.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+MeanPrecip,Data/Predictors/MeanPrecip.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+SeasPrecip,Data/Predictors/PrecipSeasonality.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+Elevation,Data/Predictors/Elevation.tif,m,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+Slope,Data/Predictors/Slope.tif,degrees,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,
+Aspect,Data/Predictors/Aspect.tif,degrees,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,Converted to Northness and Eastness; raw aspect is not modelled.
+PET,Data/Predictors/PET.tif,REPLACE,continuous,bilinear,REPLACE,REPLACE,YYYY-MM-DD,REPLACE,

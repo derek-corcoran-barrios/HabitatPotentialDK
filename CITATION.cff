@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "HabitatPotentialDK: Reproducible 10-m habitat-potential models for Danish terrestrial restoration pathways"
+version: 0.1.0
+license: MIT
+type: dataset
+abstract: >-
+  Data, R code, fitted maxnet models, spatial cross-validation diagnostics,
+  Range Model Metadata Standards metadata, and continuous and thresholded
+  10-m habitat-potential maps for Danish terrestrial restoration pathways.
+message: >-
+  If you use this repository or its derived habitat-potential maps, please cite
+  the archived release using the metadata in this CITATION.cff file.
+authors:
+  - given-names: Derek
+    family-names: Corcoran
+    email: derek.corcoran.barrios@gmail.com
+    affiliation: >-
+      Department of Biology, Ecoinformatics and Biodiversity, Aarhus University;
+      SustainScapes – Center for Sustainable Landscapes under Global Change,
+      Aarhus University
+keywords:
+  - habitat potential
+  - habitat suitability modelling
+  - Maxent
+  - maxnet
+  - ENMeval
+  - blockCV
+  - spatial cross-validation
+  - presence-background modelling
+  - Range Model Metadata Standards
+  - RMMS
+  - Denmark
+  - restoration planning
+  - terrestrial habitats
+  - reproducible research
+repository-code: "REPLACE_WITH_GITHUB_REPOSITORY_URL"
+# doi: "REPLACE_WITH_ZENODO_DOI"
+# date-released: "YYYY-MM-DD"

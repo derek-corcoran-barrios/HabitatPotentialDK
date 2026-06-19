@@ -1,0 +1,38 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# R Markdown
+README.html
+*_cache/
+*_files/
+
+# Temporary raster files
+*.aux.xml
+*.ovr
+*.tmp
+terra_tmp/
+
+# Local data not intended for redistribution
+Data/Predictors/*.tif
+
+# Derived objects
+DerivedData/
+Models/
+Outputs/
+Metadata/
+
+# Keep directory placeholders
+!DerivedData/.gitkeep
+!Models/.gitkeep
+!Outputs/.gitkeep
+!Metadata/.gitkeep
+.Rproj.user
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
