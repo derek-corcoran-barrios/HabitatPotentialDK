@@ -13,7 +13,7 @@ output:
 bibliography: references.bib
 link-citations: true
 params:
-  run_preparation: false
+  run_preparation: true
   run_models: false
 editor_options:
   chunk_output_type: console
@@ -196,37 +196,6 @@ data citation.
 
 ## Reproducible software environment
 
-Create the project environment once:
-
-```{r install-renv, eval=FALSE}
-install.packages("renv")
-renv::init()
-
-renv::install(c(
-  "terra",
-  "sf",
-  "dplyr",
-  "purrr",
-  "readr",
-  "tibble",
-  "tidyr",
-  "ggplot2",
-  "here",
-  "fs",
-  "blockCV",
-  "ENMeval",
-  "maxnet",
-  "rangeModelMetadata",
-  "knitr",
-  "rmarkdown",
-  "sessioninfo",
-  "yaml",
-  "jsonlite"
-))
-
-renv::snapshot()
-```
-
 Restore the exact environment on another computer with:
 
 ```{r restore-renv, eval=TRUE}
@@ -376,9 +345,7 @@ The required file is:
 Data/basemap_reclass_SN_ModelClass.tif
 ```
 
-The raster should contain one categorical band with the current mapped land-use
-or habitat class. The exact integer codes are not assumed in the script; they
-are documented in `Data/habitat_lookup.csv`.
+The raster should contain one categorical band with the current mapped land-use or habitat class. The exact integer codes are not assumed in the script; they are documented in `Data/habitat_lookup.csv`.
 
 ```{r read-habitat-raster, eval=params$run_preparation}
 if (!file.exists(cfg$habitat_raster)) {
@@ -492,7 +459,7 @@ if (length(unexpected_abiotic) > 0L) {
 }
 
 unknown_raster_values <- setdiff(
-  habitat_lookup$value,
+  habitat_lookup$habitat,
   landuse_frequency$value
 )
 

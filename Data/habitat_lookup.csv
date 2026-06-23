@@ -1,0 +1,9 @@
+value,habitat,abiotic_class,structure,notes
+5,ForestDryPoor,DryPoor,Forest,
+8,ForestDryRich,DryRich,Forest,
+9,ForestWetPoor,WetPoor,Forest,
+7,ForestWetRich,WetRich,Forest,
+1,OpenDryPoor,DryPoor,Open,
+6,OpenDryRich,DryRich,Open,
+2,OpenWetPoor,WetPoor,Open,
+4,OpenWetRich,WetRich,Open,
